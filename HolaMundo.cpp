@@ -3,8 +3,12 @@
 
 using namespace std;
 
-int main(int argc, char const *argv[]) {
+void MostrarHolaMundo() {
     cout << "Hola Mundo!!!" << endl;
+}
+
+int main(int argc, char const *argv[]) {
+    MostrarHolaMundo();
     system("pause");
     return 0;
 }
