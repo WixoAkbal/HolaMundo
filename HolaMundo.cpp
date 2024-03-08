@@ -9,6 +9,7 @@ void MostrarHolaMundo() {
 
 int main(int argc, char const *argv[]) {
     MostrarHolaMundo();
+    cout << "hola mundo x2" << endl;
     system("pause");
     return 0;
 }
